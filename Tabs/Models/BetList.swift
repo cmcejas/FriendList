@@ -2,7 +2,7 @@ import Foundation
 import FirebaseFirestore
 import FirebaseFirestoreSwift
 
-struct BetList: Identifiable, Codable, Equatable {
+struct BetList: Identifiable, Codable, Equatable, Hashable {
     @DocumentID var id: String?
     var title: String
     var createdBy: String
