@@ -1,0 +1,3 @@
+# Firebase config – use GoogleService-Info-Template.plist as reference, add your own plist from Firebase Console
+**/GoogleService-Info.plist
+Tabs/GoogleService-Info.plist
